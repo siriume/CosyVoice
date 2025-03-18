@@ -58,8 +58,10 @@ setup(
         "audiosegment",
         "srt",
         "ffmpeg-python",
-        # extra
-        "ttsfrd",
+        # "ttsfrd",
+        "gradio",
+        "WeTextProcessing",
+        "matcha-tts",
         "transformers",
     ],
     extras_require={
