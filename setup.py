@@ -60,8 +60,8 @@ setup(
         "ffmpeg-python",
         # "ttsfrd",
         "gradio",
-        "WeTextProcessing",
-        "matcha-tts",
+        # "WeTextProcessing", # pynini is a problem
+        "matcha-tts @ git+https://github.com/rsxdalv/Matcha-TTS@better-matcha",
         "transformers",
     ],
     extras_require={
